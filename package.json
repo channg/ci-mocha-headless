@@ -1,0 +1,24 @@
+{
+  "name": "ci-mocha-headless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "directories": {
+    "test": "mocha-chrome ./test-some/index.html"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/channg/ci-mocha-headless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/channg/ci-mocha-headless/issues"
+  },
+  "homepage": "https://github.com/channg/ci-mocha-headless#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-chrome": "^1.1.0"
+  }
+}
