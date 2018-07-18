@@ -29,6 +29,8 @@ function return(a,b){
 
 好的现在我可以对这个方法进行测试了
 
+增加一个用于测试`index.html`
+
 ```vbscript-html
 <!DOCTYPE html>
 <html>
@@ -58,7 +60,7 @@ function return(a,b){
 </html>
 ```
 
-编写  test.js
+编写  `test.js`
 >chai.expect是一个chai.js的断言方法，如果出现问题，则会抛出一个异常 文档地址 http://www.chaijs.com/
 
 >describe 是mocha的测试取款，每一个it都会执行一个测试用例
