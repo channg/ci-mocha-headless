@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "add.js",
-  "directories": {
+  "scripts":{
     "test": "mocha-chrome ./test-some/index.html"
   },
-  "scripts": {},
+  "directories": {
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/channg/ci-mocha-headless.git"
